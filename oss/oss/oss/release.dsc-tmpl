@@ -1,0 +1,11 @@
+module.name=@@MODULE_NAME@@
+module.userid=oss
+module.uid=533
+module.gid=512
+module.pkgid=@@MODULE_NAME@@
+module.type=sys.act.@@MODULE_NAME@@
+module.description=@@DESC@@
+module.major_version=@@MAJOR_VERSION@@
+module.revision=@@REVISION@@
+module.release=@@RELEASE@@
+module.order=69

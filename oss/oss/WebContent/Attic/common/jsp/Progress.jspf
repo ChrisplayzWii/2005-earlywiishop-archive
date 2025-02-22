@@ -1,0 +1,5 @@
+<div id="Progress">
+	<div id="dynDiv1" class="style1"></div>
+    <div id="dynDiv2" class="style2"></div>
+    <div id="errDiv" class="style2"></div>
+</div>

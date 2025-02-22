@@ -1,0 +1,25 @@
+<hron_message>
+    <sw_module_release>
+
+	 <sw_module_release_info>
+	      <name>@@MODULE_NAME@@</name>
+	      <major_version>@@MAJOR_VERSION@@</major_version>
+	      <revision>@@REVISION@@</revision>
+	      <type>sys.act.@@MODULE_NAME@@</type>
+	      <params>1;@@MODULE_NAME@@.db.url=jdbc:oracle:oci:@(DESCRIPTION=(FAILOVER=yes)(LOAD_BALANCE=no)(ADDRESS=(PROTOCOL=TCP)(HOST=db1-vip)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=db2-vip)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=BCCDB)(FAILOVER_MODE=(TYPE=SELECT)(METHOD=BASIC)(RETRIES=180)(DELAY=5))));@@MODULE_NAME@@.db.user=cas;@@MODULE_NAME@@.db.password=cas;@@MODULE_NAME@@.ext.content_prefix_url=http://ccs.lab3.routefree.com:16983/ccs/download;@@MODULE_NAME@@.ext.uncached_content_prefix_url=http://ccs.lab3.routefree.com:16983/ccs/download;@@MODULE_NAME@@.ecs.url=http://ecs:17105/ecs/services/ECommerceSOAP;@@MODULE_NAME@@.ias.url=http://ias:16980/ias/services/IdentityAuthenticationSOAP;@@MODULE_NAME@@.cc.payment.url=http://ccsimu:17199/ccsimu/services/VCPayment;@@MODULE_NAME@@.ext.ecs.url=http://ecs.lab3.routefree.com:17105/ecs/services/ECommerceSOAP;@@MODULE_NAME@@.ext.ias.url=http://ias.lab3.routefree.com:16980/ias/services/IdentityAuthenticationSOAP</params>
+	      <desc>@@DESC@@</desc>
+	      <last_known_good>yes</last_known_good>
+              <required_sw_major_version>2.4.18</required_sw_major_version>
+	      <required_sw_revision>2002090413</required_sw_revision>
+	      <encryption_key>@@KEY@@</encryption_key>
+	 </sw_module_release_info>
+
+       <file_list>
+	      <filename>release.dsc</filename>
+	      <filename>@@MODULE_NAME@@.pkg.sig</filename>
+	      <filename>@@MODULE_NAME@@.pkg.cry</filename>
+       </file_list>
+
+    </sw_module_release>
+
+</hron_message>

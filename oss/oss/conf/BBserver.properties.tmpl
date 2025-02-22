@@ -1,0 +1,27 @@
+# Configuration parameters for the OSS Servers
+
+# Database parameters
+DB_URL = @@DB_URL@@
+
+default_servlet_db_user = @@DB_USER@@
+default_servlet_db_password = @@DB_PASSWORD@@
+
+data-source-no-scheduler = 1
+
+# Content prefix URL for use on Wii
+EXT_CONTENT_PREFIX_URL = @@EXT_CONTENT_PREFIX_URL@@
+EXT_UNCACHED_CONTENT_PREFIX_URL = @@EXT_UNCACHED_CONTENT_PREFIX_URL@@
+
+# WSDL URLs for internal use on OSS
+ECS_URL = @@ECS_URL@@
+IAS_URL = @@IAS_URL@@
+CC_PAYMENT_URL = @@CC_PAYMENT_URL@@
+
+# WSDL URLS for use on Wii
+EXT_ECS_URL = @@EXT_ECS_URL@@
+EXT_IAS_URL = @@EXT_IAS_URL@@
+
+# Supported locales that have their own OSS pages
+# Need to be in sync with locales in OSS Makefile
+LOCALES = en_US,ja_JP
+

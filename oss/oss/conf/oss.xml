@@ -1,0 +1,5 @@
+<Context path="/oss" docBase="oss.war" debug="0" reloadable="false"
+	     crossContext="false" swallowOutput="false">
+     <Environment name="BBconfig" type="java.lang.String"
+	              value="webapps/oss/BBserver.properties"/>
+</Context>

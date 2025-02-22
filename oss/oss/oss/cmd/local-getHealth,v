@@ -1,0 +1,43 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2006.05.23.20.16.18;	author lo;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.05.10.02.00.22;	author angel;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@create oss.pkg
+@
+text
+@#!/bin/sh
+
+# /opt/broadon/pkgs/svcdrv/bin/probe 16901 /oss/monitor
+@
+
+
+1.1
+log
+@Initial files for oss pkg
+@
+text
+@d3 1
+a3 1
+/opt/broadon/pkgs/svcdrv/bin/probe 16901 /oss/monitor
+@
+

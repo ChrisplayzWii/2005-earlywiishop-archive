@@ -1,0 +1,151 @@
+
+/* GENERAL */
+body, p, td, div, span, a, .text, .white, .forward, .selected, .title, .actions { font-size: 12px; color: #000000; font-family: tahoma,arial,verdana,sans-serif; }
+option, input, textarea, select, .formText { font-family: tahoma,arial,verdana,sans-serif; }
+
+/* Limit page to 640 by 480 (NTSC TV resolution) */
+/* Note: PAL resolution is 640 by 528 */
+body { width: 640px; height: 480px; background-image: url('../images/background.gif'); background-repeat: no-repeat; }
+
+textarea { font-size: 12px; }
+
+FORM { display: inline; } 
+
+.requiredText { font-weight: normal; color: red }
+.successText { font-weight: bold; color: #006666 }
+.errorText { font-weight: bold; color: red }
+.logoutText { font-size: 11px; font-weight: bold; color: #DDC018 }
+
+
+/* BACKGROUND */
+
+.lightBG { background-color: #D8FFD0 }
+.darkBG { background-color: #006666 }
+.whiteBG { background-color: #FFFFFF }
+.lightgrayBG { background-color: #CCCCCC }
+
+/* BUTTON */
+.button { cursor:hand; font-family: tahoma,arial,verdana,sans-serif; font-weight:normal; font-size:smaller; background-color:#DCDCDC }
+.sbutton {
+    border-right:#BDBDBD 1px solid; border-top:#DCDCDC 1px solid; background:#DCDCDC;
+    border-left:#DCDCDC 1px solid; cursor:hand; color:#333333; border-bottom:#BDBDBD 1px solid;
+    height:22px; font-size:12px; font-weight:normal; text-decoration:none
+}
+.sbuttonF {
+    border-right:#BDBDBD 1px solid; border-top:#DCDCDC 1px solid; background:#DCDCDC;
+    border-left:#DCDCDC 1px solid; cursor:hand; color:#333333; border-bottom:#BDBDBD 1px solid;
+    height:22px; width:155px; font-size:12px; font-weight:normal; text-decoration:none
+}
+
+
+/* TABLE */
+
+.outerTable { border-width: 0 }
+.innerTable { border-width: 0 }
+.tableHeader { font-weight: bold; color: #FFFFFF; background-color: #006666; text-align: center; }
+.columnHeader { font-weight: bold; color: #333333; background-color: #BDBDBD; text-align: center; }
+
+.tableHeaderLabelB { font-size: 12px; font-weight: bold; color: #006666; }
+.tableHeaderLabelW { font-size: 12px; font-weight: bold; color: #FFFFFF; }
+.tableSubHeaderLabelB { font-size: 12px; font-weight: bold; color: #006666; }
+.tableSubHeaderLabelW { font-size: 12px; font-weight: bold; color: #FFFFFF; }
+
+.tableHeaderLabel {  font-size: 12px; line-height: 19px; color: #333333; text-decoration: none}
+
+.tableFieldValue {font-weight: normal; color: black; }
+.whiterow { background-color: #FFFFFF }
+.colorrow { background-color: #D8FFD0 }
+
+/* FORM */
+.formLabelR { font-weight: bold; color: #333333; background-color: #D8FFD0; text-align: right; }
+.formLabelC { font-weight: bold; color: #333333; background-color: #D8FFD0; text-align: center; }
+.formLabelL { font-weight: bold; color: #333333; background-color: #D8FFD0; text-align: left; }
+
+.formFieldR { font-weight: normal; color: #333333; background-color: #EFEFEF; text-align: right; }
+.formFieldC { font-weight: normal; color: #333333; background-color: #EFEFEF; text-align: center; }
+.formFieldL { font-weight: normal; color: #333333; background-color: #EFEFEF; text-align: lefT; }
+
+.requiredField { font-weight: bold; color: #E35A00; }
+
+
+/* LINKS */
+A:link, A:active, A:visited { color: #003366; text-decoration: underline }
+A:hover { text-decoration: underline; }
+
+A.hdrText:link, A.hdrText:active, A.hdrText:visited { text-decoration: none; color: #FFFFFF } 
+A.hdrText:hover { text-decoration: underline }
+A.hdrSelected:link, A.hdrSelected:active, A.hdrSelected:visited { text-decoration: none; color: #FFFFFF } 
+A.hdrSelected:hover { text-decoration: underline }
+A.logout:link, A.logout:active, A.logout:visited { font-weight: bold; text-decoration: none; color: #999900 } 
+A.logout:hover { text-decoration: underline }
+A.list:link, A.list:active, A.list:visited { font-weight: normal; text-decoration: none; color: #003366 } 
+A.list:hover { text-decoration: underline }
+
+A.buddy:link, A.buddy:active, A.buddy:visited { font-size: 12px; font-weight: bold; text-decoration: none; color: #0000FF } 
+A.buddy:hover { text-decoration: underline }
+
+A.active:link, A.active:active, A.active:visited { font-size: 14px; font-weight: bold; text-decoration: none; color: #077C48 } 
+A.active:hover { text-decoration: underline }
+A.dormant:link, A.dormant:active, A.dormant:visited { font-size: 14px; font-weight: normal; text-decoration: none; color: #9C000C } 
+A.dormant:hover { text-decoration: underline }
+
+/* PROGRESS BAR */
+
+.pbMsg { font: bold; color: #006666; }
+.pbBox { background-color: #FFFFFF; border: 1px solid #006666; height: 20px }
+.pbBar { position: static; background-color: #006666; height: 20px; width: 0; padding-top: 5; }
+
+/* HEADER MENU */
+
+.hdrText { font-size: 12px; color: #FFFFFF }
+.hdrSelected { font-size: 12px; color: #FFFFFF }
+.hdrBar { font-size: 12px; font-weight: bold; color: #FFFFFF }
+
+.userText { font-size: 11px; font-weight: bold; color: #006666 }
+.logoutText { font-size: 11px; font-weight: bold; color: #999900 }
+
+
+/* DEVICE MANAGEMENT */
+
+.content-card {  background: #FFFF99; }
+.content-pc { background: LightCyan; }
+.content-ique { background: #FF99FF; }
+
+/* BUDDY LIST */
+
+.group-name { font-size: 12px; font-weight: bold; color: #A40040 }
+
+/* IQUE ADDED */
+.font1 {  font-size: 12px; line-height: 19px; color: #333333; text-decoration: none}
+.fontlink {  font-size: 12px; color: #666666; text-decoration: none}
+.font_or {  font-size: 14px; font-weight: bold; text-decoration: none; color: #F9872B; line-height: 22px}
+.font_white {  font-size: 13px; color: #FFFFFF; text-decoration: none; filter: DropShadow(Color=#FFFF00, OffX=2, OffY=2, Positive=2); font-family: "Arial", "Helvetica", "sans-serif"}
+.formfong_b {  font-size: 14px; font-weight: bold; text-decoration: none; color: #2E3192; line-height: 22px}
+.font_b {  font-size: 12px; color: #2E3192; text-decoration: none; line-height: 1px}
+.font_h_666666 {  font-size: 12px; color: #666666; text-decoration: none; line-height: 20px; font-family: "Arial"}
+.formfont_b_b {  font-size: 15px; font-weight: bold; color: #0080BD; text-decoration: none}
+.font_h_25 {  font-size: 12px; line-height: 25px; color: #666666; text-decoration: none}
+.f_h_18 {  font-size: 12px; line-height: 16px; color: #666666; text-decoration: none}
+.f_t_red {  font-size: 12px; color: #FF3300}
+.white_12 {  font-size: 12px; color: #FFFFFF}
+.f_green {  font-size: 12px; color: #339933}
+
+a:link {  text-decoration: none}
+a:visited {  text-decoration: none}
+a:hover {  color: #0067C6}
+a:active { line-height: normal; }
+
+.style1 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #003399; 
+	line-height: 14px;
+}
+
+.style2 {
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.style4 {font-size: 12px}
+

@@ -1,0 +1,12 @@
+#
+# Makefile format
+#
+MODULE_NAME=oss
+MAJOR_VERSION=3.0.0
+REVISION:=$(shell date +%Y%m%d%H)
+RELEASE:=$(shell printf "%02d%02d%02d%s" \
+    $(shell echo $(MAJOR_VERSION) | cut -d . -f1 ) \
+    $(shell echo $(MAJOR_VERSION) | cut -d . -f2 ) \
+    $(shell echo $(MAJOR_VERSION) | cut -d . -f3 ) \
+    $(REVISION) )
+DESC=Online Store Server

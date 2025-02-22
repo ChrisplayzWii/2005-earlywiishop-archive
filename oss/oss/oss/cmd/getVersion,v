@@ -1,0 +1,38 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2006.05.10.02.00.22;	author angel;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial files for oss pkg
+@
+text
+@#!/bin/sh
+
+PACKAGE=oss
+
+#
+#  Insert the package name in front.
+#
+show()
+{
+    package=$1
+    sed -e "s/^/${package}\./" release.dsc
+}
+
+cd /opt/broadon/mgmt/${PACKAGE}/control
+show ${PACKAGE}
+@

@@ -1,0 +1,28 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2006.05.10.02.00.22;	author angel;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial files for oss pkg
+@
+text
+@#!/bin/sh
+#
+# pre-installation script
+
+/bin/rm -f /opt/init.d/*[0-9]oss
+@

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<%@ page language="java" contentType="text/html;charset=UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+<c:set var="txtPath" value="../txt" />
+
+<c:set var="htmlPath" value="/${locale}/html" />
+<c:set var="jsPath" value="/${locale}/js" />
+<c:set var="cssPath" value="/${locale}/css" />
+<c:set var="imagesPath" value="/${locale}/images" />
+<c:set var="titlesPath" value="/${locale}/titles" />
+
+<SCRIPT language="JavaScript" src="<c:out value="${jsPath}"/>/ec.js"></SCRIPT>
+<SCRIPT language="JavaScript" src="<c:out value="${jsPath}"/>/ec_example.js"></SCRIPT>
+<SCRIPT language="JavaScript" src="<c:out value="${jsPath}"/>/vc.js"></SCRIPT>
+<!--<fmt:setLocale value="${locale}" scope="request"/>-->
+
+
