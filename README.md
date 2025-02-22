@@ -5,7 +5,7 @@
 <h3>Huge credit to <a href="https://github.com/MrRM05">RM05 (github)</a> /// <a href="https://www.youtube.com/@Mr_RM05">RM05 (youtube)</a>  for taking the previously impossible to use CVS files (history log files with filename,v) and removing the ,v to make them usable again using cvs checkout. <br> i plan to turn these jsps into plain html soon and host it but thats for a later date :P </h3>
 <br><br>
 <br><br>
-OSS folder dated dec 12th 2005, it seesm to be for the scrapped virtual console channel/ early shop channel, <br> basically you would go to a home menu with these options:<br>
+OSS folder dated dec 9th 2005 (12/9/2005), it seems to be for the scrapped virtual console channel/ early shop channel, <br> basically you would go to a home menu with these options:<br>
 <img src="https://github.com/user-attachments/assets/9e9fd939-694b-4c5d-8734-348e6ba972d4"><br>
 
 and some of those options lead you to the "early wii shop screenshots" seen here:<Br>
