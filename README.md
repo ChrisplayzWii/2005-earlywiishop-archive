@@ -22,3 +22,7 @@ here are some screenshots of it on localhost btw (kinda broken cuz i tried to co
 <Br><br>
 
 <h2>&copy; Nintendo, 2005. i own no rights to these jsps, images, css, or javascript files.</h2>
+
+<br><br>
+<h2>Want more beta wii content?</h2>
+<h4>Check out my beta wii project at <a href="https://betawii.github.io">betawii.github.io</a>! it contains only things recorded by nintendo, or things people recorded from nintendo during the days before the wiis launch!</h4>
